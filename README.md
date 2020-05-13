@@ -1,2 +1,3 @@
-# data-structures
-All Data Structures and basic functionalities
+# Data Structures
+
+Understanding and practicing data structures using C++
