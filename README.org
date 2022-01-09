@@ -20,8 +20,8 @@ We can implement any data structure by placing data in memory either sequentiall
 Therefore, if we want to find the memory address of the next element, we can either perform mathematical calculations to find it, or store the address directly in a pointer. These are the two approaches that is used for implementing Data Structures.
 
 The mathematical implementation of storage is referred to as Array Data Structure, and pointer implementation is referred to as Linked Data Structure.
-- Array Data Structure
-- Linked Data Structure
+- [[file:structures/array.org][Array Data Structure]]
+- [[file:structures/linked.org][Linked Data Structure]]
 * Abstract Data Types (ADT)
 An abstract data type is a mathematical/conceptual model of a data structure that specifies the data type, the operations, and the parameters of the operations possible on the data type. The concept does not care about the implementation of the ADT. It is up to you to choose the implementation method that suits your requirements best.
 
