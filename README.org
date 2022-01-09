@@ -26,7 +26,7 @@ The mathematical implementation of storage is referred to as Array Data Structur
 An abstract data type is a mathematical/conceptual model of a data structure that specifies the data type, the operations, and the parameters of the operations possible on the data type. The concept does not care about the implementation of the ADT. It is up to you to choose the implementation method that suits your requirements best.
 
 Some of the most commonly use ADTs are:
-- Stacks
+- [[file:adt/stack.org][Stacks]]
 - Queues
 - Trees
 - Hashmap
