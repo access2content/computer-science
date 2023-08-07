@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "20dba0821b384ae2",
+        "id": "b5d72739336dccd6",
         "type": "tabs",
         "children": [
           {
-            "id": "290ea818138ced2e",
+            "id": "d96142f9d7b42a2d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -139,12 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "290ea818138ced2e",
+  "active": "d96142f9d7b42a2d",
   "lastOpenFiles": [
-    "structures/array.md",
+    "adt/stack.md",
     "README.md",
-    "structures/linked-list.md",
     "Data Type.md",
+    "structures/linked-list.md",
+    "structures/array.md",
     "data-types.org.md"
   ]
 }

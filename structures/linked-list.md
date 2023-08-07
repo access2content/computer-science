@@ -1,6 +1,6 @@
-- [[#Introduction|Introduction]]
-- [[#Advantages of Linked list Data Structures|Advantages of Linked list Data Structures]]
-- [[#Disadvantages of Linked list Data Structures|Disadvantages of Linked list Data Structures]]
+- [Introduction](#introduction)
+- [Advantages of Linked list Data Structures](#advantages-of-linked-list-data-structures)
+- [Disadvantages of Linked list Data Structures](#disadvantages-of-linked-list-data-structures)
 
 # Introduction
 

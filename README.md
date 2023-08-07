@@ -1,12 +1,12 @@
-- [[#What is a Data Type?|What is a Data Type?]]
-- [[#Data Storage|Data Storage]]
-- [[#What is a Data Structure?|What is a Data Structure?]]
-- [[#Implementation of Data Structures|Implementation of Data Structures]]
-- [[#Abstract Data Types (ADT)|Abstract Data Types (ADT)]]
-- [[#Operations on Abstract Data Types|Operations on Abstract Data Types]]
+- [What is a Data Type?](#what-is-a-data-type)
+- [Data Storage](#data-storage)
+- [What is a Data Structure?](#what-is-a-data-structure)
+- [Implementation of Data Structures](#implementation-of-data-structures)
+- [Abstract Data Types (ADT)](#abstract-data-types-adt)
+- [Operations on Abstract Data Types](#operations-on-abstract-data-types)
 
 # What is a Data Type?
-First, let\'s be sure to know what a [[Data Type]] in order to avoid confusion. Data types can be primitive and non-primitive. Primitive data types are data types with their own set of properties which cannot be further broken down. Non-Primitive data types are any combination of primitive data types with its own properties and operations.
+First, let\'s be sure to know what a [Data Type](Data%20Type.md) in order to avoid confusion. Data types can be primitive and non-primitive. Primitive data types are data types with their own set of properties which cannot be further broken down. Non-Primitive data types are any combination of primitive data types with its own properties and operations.
 # Data Storage
 Now, it is easy to store a single data in memory in the computer.
 However, it would be troublesome to store large amounts of data in the
@@ -54,8 +54,8 @@ The mathematical implementation of storage is referred to as Array Data
 Structure, and pointer implementation is referred to as Linked Data
 Structure.
 
-- [[array|Array Data Structure]]
-- [[linked-list|Linked List Data Structure]]
+- [Array Data Structure](array.md)
+- [Linked List Data Structure](linked-list.md)
 # Abstract Data Types (ADT)
 An abstract data type is a mathematical/conceptual model of a data
 structure that specifies the data type, the operations, and the
@@ -65,7 +65,7 @@ the implementation method that suits your requirements best.
 
 Some of the most commonly use ADTs are:
 
--   [[stack|Stack]]
+-   [Stack](stack.md)
 -   Queue
 -   Tree
 -   Hashmap

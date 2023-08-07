@@ -1,13 +1,15 @@
-- [[#Properties of an Array|Properties of an Array]]
-- [[#Operations on an Array|Operations on an Array]]
-	- [[#Operations on an Array#Adding an element to an Array|Adding an element to an Array]]
-	- [[#Operations on an Array#Removing an element from the array|Removing an element from the array]]
-	- [[#Operations on an Array#Reading an element from the array|Reading an element from the array]]
-	- [[#Operations on an Array#Updating an array element|Updating an array element]]
-- [[#Learning|Learning]]
-	- [[#Learning#Arrays are fast at|Arrays are fast at]]
-	- [[#Learning#Arrays are slow at|Arrays are slow at]]
-	- [[#Learning#When to use an array|When to use an array]]
+- [Introduction](#introduction)
+- [Properties of an Array](#properties-of-an-array)
+- [Operations on an Array](#operations-on-an-array)
+	- [Adding an element to an Array](#adding-an-element-to-an-array)
+	- [Removing an element from the array](#removing-an-element-from-the-array)
+	- [Reading an element from the array](#reading-an-element-from-the-array)
+	- [Updating an array element](#updating-an-array-element)
+- [Learning](#learning)
+	- [Arrays are fast at](#arrays-are-fast-at)
+	- [Arrays are slow at](#arrays-are-slow-at)
+	- [When to use an array](#when-to-use-an-array)
+
 
 # Introduction
 An array data structure is a collection of a particular data type stored
