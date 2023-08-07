@@ -1,21 +1,15 @@
-# Table Of Contents [[toc]{.smallcaps}]{.tag tag-name="toc"} {#table-of-contents}
-
--   [Introduction](#introduction)
--   [Properties of an Array](#properties-of-an-array)
--   [Operations on an Array](#operations-on-an-array)
-    -   [Adding an element to an Array](#adding-an-element-to-an-array)
-    -   [Removing an element from the
-        array](#removing-an-element-from-the-array)
-    -   [Reading an element from the
-        array](#reading-an-element-from-the-array)
-    -   [Updating an array element](#updating-an-array-element)
--   [Learnings](#learnings)
-    -   [Arrays are fast at](#arrays-are-fast-at)
-    -   [Arrays are slow at](#arrays-are-slow-at)
-    -   [When to use an array](#when-to-use-an-array)
+- [[#Properties of an Array|Properties of an Array]]
+- [[#Operations on an Array|Operations on an Array]]
+	- [[#Operations on an Array#Adding an element to an Array|Adding an element to an Array]]
+	- [[#Operations on an Array#Removing an element from the array|Removing an element from the array]]
+	- [[#Operations on an Array#Reading an element from the array|Reading an element from the array]]
+	- [[#Operations on an Array#Updating an array element|Updating an array element]]
+- [[#Learning|Learning]]
+	- [[#Learning#Arrays are fast at|Arrays are fast at]]
+	- [[#Learning#Arrays are slow at|Arrays are slow at]]
+	- [[#Learning#When to use an array|When to use an array]]
 
 # Introduction
-
 An array data structure is a collection of a particular data type stored
 at contiguous memory locations. Since most of the tasks that one has to
 perform will be done on similar type of data, having them close to each
@@ -38,7 +32,6 @@ Now that we know WHAT an array is, let us look at some PROPERTIES of an
 array. Let\'s assume we take an array of 10 number data type.
 
 # Properties of an Array
-
 An array should have the same data type for each of its elements.
 
 An array will be stored in a continuous location. So, if we want to find
@@ -46,14 +39,12 @@ an element, we can get the memory address by simply multiplying the size
 of the data type with the element index.
 
 # Operations on an Array
-
 The most obvious operation we would want to do is to ADD an element to
 the array, followed by DELETE an element from the array. Next, we would
 like to READ an element in the array and then UPDATE an element in the
 array.
 
 ## Adding an element to an Array
-
 If you look at an array, they are always going to be in a continuous
 memory location. Therefore, there are two ways of inserting elements in
 the array:
@@ -94,9 +85,7 @@ x0123   x0124   x0125   x0126   x0127   x0128
 Now that the memory address is empty, we can insert the new element.
 Hence, adding an element to an array at the last index is fast, but
 adding it anywhere else is slow.
-
 ## Removing an element from the array
-
 Removing an array element follows the same pattern as adding an element
 in the array. An element from an array can be removed from any position
 in the array. If however, we are removing an element from an array not
@@ -115,9 +104,7 @@ the left to make it an array.
 1       2       5       6
 x0123   x0124   x0125   x0126
 ```
-
 ## Reading an element from the array
-
 Reading an element from an array is where the power of an array is
 harnessed. Essentially, you can think of an array as a data structure
 which makes READING easier as compared to EDITING.
@@ -220,29 +207,20 @@ only know the value that we want to change, we will first have to find
 the value in the array by traversing through it and then update the
 value.
 
-# Learnings
-
-Arrays store data in contiguous memory locations Arrays store the same
-data type in all locations Arrays are fast at reading data from an Index
-Arrays are slow at reading data by value Arrays are slow when we have to
-add data in the middle Arrays are fast when we have to add data in the
-end Arrays are slow when we have to remove data from the middle Arrays
-are fast when we have to remove data from the end Arrays are fast at
-updating data at an index
-
+# Learning
+Arrays store data in contiguous memory locations Arrays store the same data type in all locations Arrays are fast at reading data from an Index Arrays are slow at reading data by value Arrays are slow when we have to add data in the middle Arrays are fast when we have to add data in the end Arrays are slow when we have to remove data from the middle Arrays
+are fast when we have to remove data from the end Arrays are fast at updating data at an index
 ## Arrays are fast at
-
-Reading data from an Index Updating data at an Index Adding data at the
-end Removing data at the end
-
+- Reading data from an Index 
+- Updating data at an Index 
+- Adding data at the end  
+- Removing data at the end
 ## Arrays are slow at
-
-Reading data by value Adding data in the middle Removing data from the
-middle
-
+- Reading data by value 
+- Adding data in the middle  
+- Removing data from the middle
 ## When to use an array
-
-When we won\'t add/remove data frequently When the data to be added or
-removed is mostly at the end index When we can derive a relation of the
-array value with the index to allow faster processing When we want to
-store same data type for quick access
+- When we won\'t add/remove data frequently 
+- When the data to be added or removed is mostly at the end index  
+- When we can derive a relation of the array value with the index to allow faster processing  
+- When we want to store same data type for quick access

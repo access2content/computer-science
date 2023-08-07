@@ -1,10 +1,6 @@
-# Table Of Contents [[toc]{.smallcaps}]{.tag tag-name="toc"} {#table-of-contents}
-
--   [Introduction](#introduction)
--   [Advantages of Linked Data
-    Structures](#advantages-of-linked-data-structures)
--   [Disadvantages of Linked Data
-    Structures](#disadvantages-of-linked-data-structures)
+- [[#Introduction|Introduction]]
+- [[#Advantages of Linked list Data Structures|Advantages of Linked list Data Structures]]
+- [[#Disadvantages of Linked list Data Structures|Disadvantages of Linked list Data Structures]]
 
 # Introduction
 
@@ -25,7 +21,7 @@ Some linked Data structures include:
 -   Search Trees
 -   Expression Trees
 
-# Advantages of Linked Data Structures
+# Advantages of Linked list Data Structures
 
 Linked lists are great at making use of available memory space as they
 do not require contiguous memory for storage.
@@ -38,7 +34,7 @@ A linked data structure will only use the required amount of memory.
 If required, individual Nodes of the DS can be moved without causing
 loss of data which is not possible in the case of array data structure.
 
-# Disadvantages of Linked Data Structures
+# Disadvantages of Linked list Data Structures
 
 Accessing random elements of a Linked DS is slow as we cannot perform a
 mathematical calculation to reach a node. We will have to traverse each

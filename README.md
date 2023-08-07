@@ -1,14 +1,13 @@
+- [[#What is a Data Type?|What is a Data Type?]]
+- [[#Data Storage|Data Storage]]
+- [[#What is a Data Structure?|What is a Data Structure?]]
+- [[#Implementation of Data Structures|Implementation of Data Structures]]
+- [[#Abstract Data Types (ADT)|Abstract Data Types (ADT)]]
+- [[#Operations on Abstract Data Types|Operations on Abstract Data Types]]
+
 # What is a Data Type?
-
-First, let\'s be sure to know what a [Data Type](data-types.org) in
-order to avoid confusion. Data types can be primitive and non-primitive.
-Primitive data types are data types with their own set of properties
-which cannot be further broken down. Non-Primitive data types are any
-combination of primitive data types with its own properties and
-operations.
-
+First, let\'s be sure to know what a [[Data Type]] in order to avoid confusion. Data types can be primitive and non-primitive. Primitive data types are data types with their own set of properties which cannot be further broken down. Non-Primitive data types are any combination of primitive data types with its own properties and operations.
 # Data Storage
-
 Now, it is easy to store a single data in memory in the computer.
 However, it would be troublesome to store large amounts of data in the
 computer without there being a relation between the data elements.
@@ -33,16 +32,13 @@ the memory in one of 3 ways:
 -   Sequential
 -   Logical
 -   Random
-
 # What is a Data Structure?
-
 Therefore, Data Structure refers to the system of storing data types in
 memory. The way you store, access, modify data provides in memory gives
 you a \"structure\" to work with data more efficiently for different use
 cases.
 
 # Implementation of Data Structures
-
 We can implement any data structure by placing data in memory either
 sequentially, logically, or randomly. The Memory Address of a data type
 can be stored in a variable so that the computer can understand WHERE to
@@ -58,11 +54,9 @@ The mathematical implementation of storage is referred to as Array Data
 Structure, and pointer implementation is referred to as Linked Data
 Structure.
 
--   [Array Data Structure](structures/array.org)
--   [Linked Data Structure](structures/linked.org)
-
+- [[array|Array Data Structure]]
+- [[linked-list|Linked List Data Structure]]
 # Abstract Data Types (ADT)
-
 An abstract data type is a mathematical/conceptual model of a data
 structure that specifies the data type, the operations, and the
 parameters of the operations possible on the data type. The concept does
@@ -71,15 +65,13 @@ the implementation method that suits your requirements best.
 
 Some of the most commonly use ADTs are:
 
--   [Stacks](adt/stack.org)
--   Queues
--   Trees
+-   [[stack|Stack]]
+-   Queue
+-   Tree
 -   Hashmap
 -   Tuple
 -   Graph
-
 # Operations on Abstract Data Types
-
 Since data is going to be stored on a storage device, we would want to
 perform the following operations on the data. These are the most basic
 operations that one can expect in almost all data types. Of course each
