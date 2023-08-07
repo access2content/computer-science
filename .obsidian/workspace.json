@@ -149,9 +149,11 @@
   },
   "active": "d96142f9d7b42a2d",
   "lastOpenFiles": [
-    "adt/stack.md",
-    "README.md",
     "Data Type.md",
+    "README.md",
+    "adt/stack.md",
+    "adt/asdf/stack.md",
+    "adt/asdf",
     "structures/linked-list.md",
     "structures/array.md",
     "data-types.org.md"

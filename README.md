@@ -4,7 +4,6 @@
 - [Implementation of Data Structures](#implementation-of-data-structures)
 - [Abstract Data Types (ADT)](#abstract-data-types-adt)
 - [Operations on Abstract Data Types](#operations-on-abstract-data-types)
-
 # What is a Data Type?
 First, let\'s be sure to know what a [Data Type](Data%20Type.md) in order to avoid confusion. Data types can be primitive and non-primitive. Primitive data types are data types with their own set of properties which cannot be further broken down. Non-Primitive data types are any combination of primitive data types with its own properties and operations.
 # Data Storage
@@ -54,8 +53,8 @@ The mathematical implementation of storage is referred to as Array Data
 Structure, and pointer implementation is referred to as Linked Data
 Structure.
 
-- [Array Data Structure](array.md)
-- [Linked List Data Structure](linked-list.md)
+- [Array Data Structure](structures/array.md)
+- [Linked List Data Structure](structures/linked-list.md)
 # Abstract Data Types (ADT)
 An abstract data type is a mathematical/conceptual model of a data
 structure that specifies the data type, the operations, and the
@@ -64,8 +63,7 @@ not care about the implementation of the ADT. It is up to you to choose
 the implementation method that suits your requirements best.
 
 Some of the most commonly use ADTs are:
-
--   [Stack](stack.md)
+-   [Stack](adt/stack.md)
 -   Queue
 -   Tree
 -   Hashmap
