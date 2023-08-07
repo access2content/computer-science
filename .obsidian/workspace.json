@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Data Structures/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8a940a8aa35d0fb6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Data Structures/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Data Structures/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Data Structures/README.md"
               }
             }
           }
@@ -149,13 +148,18 @@
   },
   "active": "d96142f9d7b42a2d",
   "lastOpenFiles": [
-    "Data Type.md",
+    "Data Structures/adt/stack.md",
+    "Data Structures/README.md",
+    "Data Structures/structures/array.md",
     "README.md",
-    "adt/stack.md",
+    "Data Structures",
+    "Design Patterns/README.md",
+    "Design Patterns/Untitled.md",
+    "Design Patterns",
+    "Data Structures/Data Type.md",
     "adt/asdf/stack.md",
     "adt/asdf",
-    "structures/linked-list.md",
-    "structures/array.md",
+    "Data Structures/structures/linked-list.md",
     "data-types.org.md"
   ]
 }
