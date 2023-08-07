@@ -17,18 +17,18 @@ Design patterns are divided into 3 main categories:
 - [Concurrency Patterns](#concurrency-patterns)
 - [Data Access Patterns](#data-access-patterns)
 - [Real-Time Patterns](#real-time-patterns)
-## Creational Design Patterns
-- Abstract factory: Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
-- Builder: Separate the construction of a complex object from its representation allowing the same construction process to create various representations.
-- Factory method: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+## [Creational Design Patterns](Creational/README.md)
+- [Singleton](Creational/Singleton.md): Ensure a class has only one instance, and provide a global point of access to it.
+- [Factory](Creational/Factory.md): Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+- [Abstract Factory](Creational/Abstract%20Factory.md): Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+- [Builder](Creational/Builder.md): Separate the construction of a complex object from its representation allowing the same construction process to create various representations.
 - Lazy initialization: Tactic of delaying the creation of an object, the calculation of a value, or some other expensive process until the first time it is needed.
 - Multiton: Ensure a class has only named instances, and provide global point of access to them.
 - Object pool: Avoid expensive acquisition and release of resources by recycling objects that are no longer in use. Can be considered a generalisation of connection pool and thread pool patterns.
 - Prototype: Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 - Resource acquisition is initialization: Ensure that resources are properly released by tying them to the lifespan of suitable objects.
-- Singleton: Ensure a class has only one instance, and provide a global point of access to it.
 
-## Structural Design Patterns
+## [Structural Design Patterns](Structural/README.md)
 - Adapter or Wrapper: Convert the interface of a class into another interface clients expect. Adapter lets classes work together that could not otherwise because of incompatible interfaces.
 - Bridge: Decouple an abstraction from its implementation allowing the two to vary independently.
 - Composite: Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
@@ -38,7 +38,7 @@ Design patterns are divided into 3 main categories:
 - Flyweight: Use sharing to support large numbers of fine-grained objects efficiently.
 - Proxy: Provide a surrogate or placeholder for another object to control access to it.
 
-## Behavioral Patterns
+## [Behavioral Patterns](Behavioral/README.md)
 - Blackboard: Generalized observer, which allows multiple readers and writers. Communicates information system-wide.
 - Chain of responsibility: Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 - Command: Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
@@ -84,6 +84,6 @@ Design patterns are divided into 3 main categories:
 - Resource Patterns: Critical Section Pattern, Priority Inheritance Pattern, Priority Ceiling Pattern, Simultaneous Locking Pattern, Ordered Locking Pattern
 - Distribution Patterns: Shared Memory Pattern, Remote Method Call Pattern, Observer Pattern, Data Bus Pattern, Proxy Pattern, Broker Pattern
 - Safety and Reliability Patterns: Monitor-Actuator Pattern, Sanity Check Pattern, Watchdog Pattern, Safety Executive Pattern, Protected Single Channel Pattern, Homogeneous Redundancy Pattern, Triple Modular Redundancy Pattern, Heterogeneous Redundancy Pattern
-
 # Further Reading
 - [Wikibooks](https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Architecture/Design_Patterns#Definition_of_a_Design_Pattern)
+- [Status Cake - Useful patterns](https://www.statuscake.com/blog/useful-design-patterns/)
