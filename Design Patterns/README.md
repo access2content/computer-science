@@ -9,14 +9,12 @@
 
 # Introduction
 In software engineering, a design pattern is a general reusable solution to a commonly occurring problem in software design. A design pattern is not a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved.
+
+# Why learn?
+- Acts like a Shared Vocabulary
+- Saves time
 # Types of design Patterns
 Design patterns are divided into 3 main categories:
-- [Creational Design Patterns](#creational-design-patterns)
-- [Structural Design Patterns](#structural-design-patterns)
-- [Behavioral Patterns](#behavioral-patterns)
-- [Concurrency Patterns](#concurrency-patterns)
-- [Data Access Patterns](#data-access-patterns)
-- [Real-Time Patterns](#real-time-patterns)
 ## [Creational Design Patterns](Creational/README.md)
 - [Singleton](Creational/Singleton.md): Ensure a class has only one instance, and provide a global point of access to it.
 - [Factory](Creational/Factory.md): Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
