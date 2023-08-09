@@ -2,5 +2,7 @@
   "settings-search",
   "obsidian-git",
   "obsidian-plugin-toc",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "obsidian-tasks-plugin",
+  "dataview"
 ]

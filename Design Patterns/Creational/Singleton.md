@@ -37,6 +37,7 @@ Some reasons why there are problems with Singleton is because:
 - In other design patterns like Abstract Factory, Builder, Prototype, Facade, etc.
 # Implementation
 To implement a singleton pattern, we have different approaches, but all of them have the following common concepts.
+
 - Private constructor to restrict instantiation of the class from other classes.
 - Private static variable of the same class that is the only instance of the class.
 - Public static method that returns the instance of the class, this is the global access point for the outer world to get the instance of the singleton class.

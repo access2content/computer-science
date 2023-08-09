@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "18d3d5fbe3378c71",
+        "id": "11b58c2826115a20",
         "type": "tabs",
         "children": [
           {
-            "id": "f6d6e9e01ae93ce8",
+            "id": "272359bd8422b2b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Patterns/Creational/Singleton.md",
+                "file": "System Design/Low Level Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e2c3a8e3e701c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures/Trees.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Patterns/Creational/Singleton.md",
+                "file": "Data Structures/Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Patterns/Creational/Singleton.md",
+                "file": "Data Structures/Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Patterns/Creational/Singleton.md"
+                "file": "Data Structures/Trees.md"
               }
             }
           }
@@ -147,12 +160,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f6d6e9e01ae93ce8",
+  "active": "2e2c3a8e3e701c02",
   "lastOpenFiles": [
+    "System Design/Low Level Design.md",
+    "Data Structures/README.md",
+    "Data Structures/Trees.md",
+    "Learning Plan.canvas",
+    "System Design/SOLID Principles.md",
+    "System Design/OOPs.md",
+    "Design Patterns/README.md",
+    "README.md",
+    "System Design/High Level Design.md",
+    "System Design/Online Offline Indicator.md",
+    "System Design/System Design Examples.md",
+    "System Design/HLD Questions.md",
+    "System Design/ADR architecture design record.md",
+    "System Design/System Design Approach.md",
+    "System Design/www.arpitbhayani.me.md",
+    "JavaScript.md",
+    "System Design",
+    "Design Patterns/Creational/Singleton.md",
+    "Algorithms/README.md",
+    "Data Structures/Untitled 1.md",
+    "Data Structures/Untitled.md",
+    "Algorithms",
     "Design Patterns/Creational/Singleton.ts",
     "Design Patterns/Creational/README.md",
-    "Design Patterns/README.md",
-    "Design Patterns/Creational/Singleton.md",
     "Design Patterns/Behavioral/README.md",
     "Design Patterns/Behavioral/Strategy.md",
     "Design Patterns/Behavioral/Chain of Responsibility.md",
@@ -160,24 +193,10 @@
     "Design Patterns/Structural/README.md",
     "Design Patterns/Behavioral",
     "Design Patterns/Structural/Facade.md",
-    "Design Patterns/Structural/Decorator.md",
-    "Design Patterns/Structural/Adapter.md",
     "Design Patterns/Structural",
-    "Design Patterns/Creational/Factory.md",
-    "Design Patterns/Creational/Builder.md",
-    "Design Patterns/Creational/Abstract Factory.md",
     "Design Patterns/Creational",
-    "Data Structures/README.md",
-    "Data Structures/adt/stack.md",
-    "Data Structures/structures/array.md",
-    "README.md",
     "Data Structures",
-    "Design Patterns/Untitled.md",
     "Design Patterns",
-    "Data Structures/Data Type.md",
-    "adt/asdf/stack.md",
-    "adt/asdf",
-    "Data Structures/structures/linked-list.md",
-    "data-types.org.md"
+    "adt/asdf"
   ]
 }

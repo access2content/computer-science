@@ -65,10 +65,19 @@ the implementation method that suits your requirements best.
 Some of the most commonly use ADTs are:
 -   [Stack](adt/stack.md)
 -   Queue
--   Tree
+-   [Trees](Trees.md)
 -   Hashmap
 -   Tuple
 -   Graph
+
+# Important Data Structures
+- Arrays
+- Linked Lists
+- Tree
+- Binary Search Tree
+- Binary Tree
+- Heap
+- Graphs
 # Operations on Abstract Data Types
 Since data is going to be stored on a storage device, we would want to
 perform the following operations on the data. These are the most basic

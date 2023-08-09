@@ -10,6 +10,7 @@
 # Introduction
 In software engineering, a design pattern is a general reusable solution to a commonly occurring problem in software design. A design pattern is not a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved.
 
+These are very important.
 # Why learn?
 - Acts like a Shared Vocabulary
 - Saves time

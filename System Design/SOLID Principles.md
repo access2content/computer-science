@@ -1,0 +1,1 @@
+These help you create good designed classes. These will not be asked in interviews.

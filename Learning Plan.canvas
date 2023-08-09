@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"type":"text","text":"HLD","id":"18a4994adc5ba9e1","x":-320,"y":-120,"width":100,"height":60},
+		{"type":"text","text":"# OOPs\n```dataview\nTASK\nFROM \"System Design/OOPs\"\nWHERE !completed\n```","id":"74765588fbf6a5e8","x":-200,"y":-50,"width":500,"height":310},
+		{"type":"text","text":"LLD","id":"4e29c1efe68770b5","x":0,"y":-110,"width":100,"height":60}
+	],
+	"edges":[]
+}
