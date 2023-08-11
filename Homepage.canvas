@@ -4,7 +4,7 @@
 		{"type":"text","text":"JavaScript","id":"cc990b96092046f8","x":-140,"y":-205,"width":140,"height":60},
 		{"type":"text","text":"Data Structures","id":"3109529bd3af698d","x":-460,"y":-210,"width":180,"height":60},
 		{"type":"text","text":"Design Patterns","id":"6e4445e71f1001db","x":120,"y":-205,"width":200,"height":50},
-		{"id":"86cb4bec7f19dffd","x":-208,"y":-145,"width":277,"height":305,"type":"text","text":"```dataview\nTASK\nFROM \"JavaScript/README\"\nWHERE\n!completed\n```"}
+		{"type":"text","text":"```dataview\nTASK\nFROM \"JavaScript/README\"\nWHERE\n!completed\n```","id":"86cb4bec7f19dffd","x":-234,"y":-145,"width":328,"height":305}
 	],
 	"edges":[
 		{"id":"a4d9f9e1d0c9aca9","fromNode":"7a2ff3c390325fe2","fromSide":"bottom","toNode":"3109529bd3af698d","toSide":"top"},

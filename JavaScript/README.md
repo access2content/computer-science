@@ -1,7 +1,8 @@
 # Introduction
-It is a dynamically typed high-level language. 
+It is a dynamically typed high-level language. It is a `synchronous single-threaded` language.
 # Topics
-- [ ] [JavaScript Basics](JavaScript%20Basics.md)
+- [x] [JavaScript Data Types](JavaScript%20Data%20Types.md)
+- [ ] [JavaScript - Code Execution](JavaScript%20-%20Code%20Execution.md)
 - [ ] Queues
 - [ ] Event Loop
 - [ ] JS Internals

@@ -1,6 +1,5 @@
-# Data Types
 JS supports both Primitive and non-primitive data types. In 2015, ES6 was launched that introduced new types.
-## Primitive
+# Primitive Data Types
 Primitive data types are types that cannot be further divided. JS supports the following data types:
 - string
 - number
@@ -9,7 +8,7 @@ Primitive data types are types that cannot be further divided. JS supports the f
 - undefined
 - BigInt (ES6)
 - Symbol (ES6)
-## Non-Primitive
+# Non-Primitive Data Types
 - Objects
 - Functions
 - Arrays
