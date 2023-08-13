@@ -2,7 +2,8 @@
 It is a dynamically typed high-level language. It is a `synchronous single-threaded` language.
 # Topics
 - [x] [JavaScript Data Types](JavaScript%20Data%20Types.md)
-- [ ] [JavaScript - Code Execution](JavaScript%20-%20Code%20Execution.md)
+- [x] [JavaScript - Code Execution](JavaScript%20-%20Code%20Execution.md)
+- [ ] [OOPS-1](OOPS-1.md)
 - [ ] Queues
 - [ ] Event Loop
 - [ ] JS Internals

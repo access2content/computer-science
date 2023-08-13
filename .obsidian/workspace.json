@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3121c4ef00935f17",
+            "id": "050c73b45411516f",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,19 +18,19 @@
                 "viewState": {
                   "x": -70,
                   "y": -90,
-                  "zoom": -0.445625819112267
+                  "zoom": 0
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "2b62cb46907fe7b2",
+            "id": "065749378c469b90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/JavaScript - Code Execution.md",
+                "file": "JavaScript/OOPS-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/JavaScript - Code Execution.md",
+                "file": "JavaScript/OOPS-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/JavaScript - Code Execution.md",
+                "file": "JavaScript/OOPS-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/JavaScript - Code Execution.md"
+                "file": "JavaScript/OOPS-1.md"
               }
             }
           }
@@ -166,14 +166,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b62cb46907fe7b2",
+  "active": "065749378c469b90",
   "lastOpenFiles": [
-    "JavaScript/README.md",
-    "JavaScript/JavaScript - Code Execution.md",
     "Homepage.canvas",
+    "JavaScript/test.js",
+    "JavaScript/JavaScript - Code Execution.md",
+    "Untitled.canvas",
+    "JavaScript/OOPS-1.md",
+    "JavaScript/3-this.js",
+    "JavaScript/README.md",
+    "JavaScript/JavaScript Data Types.md",
     "JavaScript/2-code_execution.js",
     "JavaScript/0-questions.js",
-    "JavaScript/JavaScript Data Types.md",
     "Data Structures/Trees/Trees.md",
     "JavaScript/1-data_types.js",
     "JavaScript",
@@ -183,8 +187,6 @@
     "Data Structures/Trees/Code/Trees-1.js",
     "Data Structures/Trees/Code/Trees-1.cpp",
     "Data Structures/Trees/Code/Tree",
-    "Data Structures/Trees/Code",
-    "Data Structures/Trees",
     "Data Structures/Depth First Search - DFS.md",
     "Data Structures/Binary Tree.md",
     "System Design/Low Level Design.md",
@@ -205,7 +207,6 @@
     "JavaScript.md",
     "Design Patterns/Creational/Singleton.md",
     "Algorithms/README.md",
-    "Data Structures/Untitled 1.md",
-    "Data Structures/Untitled.md"
+    "Data Structures/Untitled 1.md"
   ]
 }

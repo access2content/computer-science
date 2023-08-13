@@ -71,9 +71,13 @@ The code is executed line by line.
 
 If a variable is initiated using var keyword, it can be re-declared in the same scope whereas a variable with let cannot.
 
+There is a difference between them when the memory is created for them. In GEC, `var` goes to the global scope whereas `let` goes to the script scope.
 # Call Stack
 The first thing that gets pushed into the call stack is the Global Execution Context (GEC).
 
 # Key Points
 - The code that isn't inside any function is in the global scope.
 - The features are given by the environment, only the logic can be written in JS.
+
+# References
+- [Will Sentance](https://www.youtube.com/watch?v=exrc_rLj5iw)
