@@ -3,6 +3,8 @@ It is a dynamically typed high-level language. It is a `synchronous single-threa
 # Topics
 - [x] [JavaScript Data Types](JavaScript%20Data%20Types.md)
 - [x] [JavaScript - Code Execution](JavaScript%20-%20Code%20Execution.md)
+- [ ] [Execution Context](Execution%20Context.md)
+- [ ] [Hoisting](Hoisting.md)
 - [ ] [OOPS-1](OOPS-1.md)
 - [ ] Queues
 - [ ] Event Loop
@@ -10,6 +12,7 @@ It is a dynamically typed high-level language. It is a `synchronous single-threa
 - [ ] Closure
 - [ ] Callback
 - [ ] Promises
+- [ ] [globalThis](globalThis.md)
 - [ ] Async/Await
 # References
 - [CodeSmith](https://www.youtube.com/watch?v=exrc_rLj5iw&pp=ygUNd2lsbCBzZW50YW5jZQ%3D%3D)

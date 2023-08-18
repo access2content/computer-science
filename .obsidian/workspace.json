@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "050c73b45411516f",
+            "id": "5229ccc174b11cb7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,21 +23,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "065749378c469b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/OOPS-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/OOPS-1.md",
+                "file": "Homepage.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/OOPS-1.md",
+                "file": "Homepage.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/OOPS-1.md"
+                "file": "Homepage.canvas"
               }
             }
           }
@@ -166,15 +153,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "065749378c469b90",
+  "active": "5229ccc174b11cb7",
   "lastOpenFiles": [
+    "JavaScript/Execution Context.md",
     "Homepage.canvas",
-    "JavaScript/test.js",
-    "JavaScript/JavaScript - Code Execution.md",
-    "Untitled.canvas",
     "JavaScript/OOPS-1.md",
-    "JavaScript/3-this.js",
+    "JavaScript/Execution Context.canvas",
+    "JavaScript/Hoisting.md",
     "JavaScript/README.md",
+    "JavaScript/JavaScript - Code Execution.md",
+    "JavaScript/globalThis.md",
+    "JavaScript/test.js",
+    "JavaScript/3-this.js",
     "JavaScript/JavaScript Data Types.md",
     "JavaScript/2-code_execution.js",
     "JavaScript/0-questions.js",
@@ -204,9 +194,6 @@
     "System Design/ADR architecture design record.md",
     "System Design/System Design Approach.md",
     "System Design/www.arpitbhayani.me.md",
-    "JavaScript.md",
-    "Design Patterns/Creational/Singleton.md",
-    "Algorithms/README.md",
-    "Data Structures/Untitled 1.md"
+    "JavaScript.md"
   ]
 }

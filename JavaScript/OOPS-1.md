@@ -16,6 +16,8 @@ Native Object: The object that you get from environment such as window, global. 
 
 Host: The objects given by language such as JSON, Date, Object, etc.
 # how this behaves in JS
+The `this` keyword in JavaScript is a reference to the current execution context.
+
 This behaves differently in:
 - strict mode
 - function
