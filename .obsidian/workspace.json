@@ -4,24 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "99eae2647f0ef8c8",
+        "id": "5b830924ddbb704a",
         "type": "tabs",
         "children": [
           {
-            "id": "5229ccc174b11cb7",
+            "id": "93225706fadc0a51",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Homepage.canvas",
-                "viewState": {
-                  "x": -70,
-                  "y": -90,
-                  "zoom": 0
-                }
-              },
-              "pinned": true
+                "file": "Rust/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -74,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "8a940a8aa35d0fb6",
@@ -91,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.canvas",
+                "file": "Rust/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.canvas",
+                "file": "Rust/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.canvas"
+                "file": "Rust/README.md"
               }
             }
           }
@@ -153,10 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5229ccc174b11cb7",
+  "active": "93225706fadc0a51",
   "lastOpenFiles": [
-    "JavaScript/Execution Context.md",
+    "Rust/README.md",
+    "Rust",
     "Homepage.canvas",
+    "JavaScript/Execution Context.md",
     "JavaScript/OOPS-1.md",
     "JavaScript/Execution Context.canvas",
     "JavaScript/Hoisting.md",
@@ -176,7 +172,6 @@
     "Data Structures/Trees/Code/package.json",
     "Data Structures/Trees/Code/Trees-1.js",
     "Data Structures/Trees/Code/Trees-1.cpp",
-    "Data Structures/Trees/Code/Tree",
     "Data Structures/Depth First Search - DFS.md",
     "Data Structures/Binary Tree.md",
     "System Design/Low Level Design.md",

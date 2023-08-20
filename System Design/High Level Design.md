@@ -11,3 +11,4 @@
 - There are only 4 things in computers - Memory, CPU, Disk, and Network
 # References
 - [Arpit Bhayani](https://www.arpitbhayani.me)
+- [Designing Data Intensive Applications](https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md)
