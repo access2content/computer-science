@@ -53,7 +53,7 @@ The mathematical implementation of storage is referred to as Array Data
 Structure, and pointer implementation is referred to as Linked Data
 Structure.
 
-- [Array Data Structure](structures/array.md)
+- [Array Data Structure](array.md)
 - [Linked List Data Structure](structure/linked-list.md)
 # Abstract Data Types (ADT)
 An abstract data type is a mathematical/conceptual model of a data

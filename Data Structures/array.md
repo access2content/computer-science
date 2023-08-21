@@ -9,7 +9,8 @@
 	- [Arrays are fast at](#arrays-are-fast-at)
 	- [Arrays are slow at](#arrays-are-slow-at)
 	- [When to use an array](#when-to-use-an-array)
-
+- [Array Algorithms](#array-algorithms)
+- [Questions](#questions)
 
 # Introduction
 An array data structure is a collection of a particular data type stored
@@ -226,3 +227,21 @@ are fast when we have to remove data from the end Arrays are fast at updating da
 - When the data to be added or removed is mostly at the end index  
 - When we can derive a relation of the array value with the index to allow faster processing  
 - When we want to store same data type for quick access
+
+# Array Algorithms
+- Sorting
+- Searching
+- Binary Search
+- Two Pointers
+- Subarray
+- Prefix sum and carry forward
+- Subset
+- Subsequence
+
+# Questions
+[Geeks for Geeks](https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/)
+
+- Find the max and min element in an array
+- Reverse an array
+- Find the kth largest and the kth smallest element in an array
+- Given an array arr[] of size N-1 with integers in the range of `[1, N]`, find the missing number from the first N integers. ([Solution](https://www.geeksforgeeks.org/find-the-missing-number/))

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b830924ddbb704a",
+        "id": "0f8013d00a96c106",
         "type": "tabs",
         "children": [
           {
-            "id": "93225706fadc0a51",
+            "id": "2cdf8777f37e07f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust/README.md",
+                "file": "Algorithms/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust/README.md",
+                "file": "Algorithms/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust/README.md",
+                "file": "Algorithms/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust/README.md"
+                "file": "Algorithms/README.md"
               }
             }
           }
@@ -147,11 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93225706fadc0a51",
+  "active": "2cdf8777f37e07f2",
   "lastOpenFiles": [
+    "Algorithms/Backtracking.md",
+    "Algorithms/README.md",
+    "Data Structures/array.md",
+    "Homepage.canvas",
     "Rust/README.md",
     "Rust",
-    "Homepage.canvas",
     "JavaScript/Execution Context.md",
     "JavaScript/OOPS-1.md",
     "JavaScript/Execution Context.canvas",
@@ -186,9 +189,6 @@
     "System Design/Online Offline Indicator.md",
     "System Design/System Design Examples.md",
     "System Design/HLD Questions.md",
-    "System Design/ADR architecture design record.md",
-    "System Design/System Design Approach.md",
-    "System Design/www.arpitbhayani.me.md",
-    "JavaScript.md"
+    "System Design/ADR architecture design record.md"
   ]
 }
