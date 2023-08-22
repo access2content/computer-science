@@ -4,22 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "0f8013d00a96c106",
+        "id": "de355b3f833e595e",
         "type": "tabs",
         "children": [
           {
-            "id": "2cdf8777f37e07f2",
+            "id": "cdffc5d865e3f8df",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Homepage.canvas",
+                "viewState": {
+                  "x": -70,
+                  "y": -90,
+                  "zoom": -0.445625819112267
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "35dfe95207ebf37e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/README.md",
+                "file": "Learning Plan.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8a940a8aa35d0fb6",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/README.md",
+                "file": "Learning Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/README.md",
+                "file": "Learning Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/README.md"
+                "file": "Learning Plan.md"
               }
             }
           }
@@ -147,12 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cdf8777f37e07f2",
+  "active": "35dfe95207ebf37e",
   "lastOpenFiles": [
-    "Algorithms/Backtracking.md",
-    "Algorithms/README.md",
-    "Data Structures/array.md",
     "Homepage.canvas",
+    "Learning Plan.md",
+    "Algorithms/README.md",
+    "Algorithms/Backtracking.md",
+    "Data Structures/array.md",
     "Rust/README.md",
     "Rust",
     "JavaScript/Execution Context.md",
@@ -187,8 +207,6 @@
     "README.md",
     "System Design/High Level Design.md",
     "System Design/Online Offline Indicator.md",
-    "System Design/System Design Examples.md",
-    "System Design/HLD Questions.md",
-    "System Design/ADR architecture design record.md"
+    "System Design/System Design Examples.md"
   ]
 }
