@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdffc5d865e3f8df",
+            "id": "060ba04283b3c30d",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,28 +16,27 @@
               "state": {
                 "file": "Homepage.canvas",
                 "viewState": {
-                  "x": -70,
-                  "y": -90,
-                  "zoom": -0.445625819112267
+                  "x": 390,
+                  "y": 370,
+                  "zoom": -1.0101242172737077
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "35dfe95207ebf37e",
+            "id": "697efa60e93e1a12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Plan.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning Plan.md",
+                "file": "Homepage.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning Plan.md",
+                "file": "Homepage.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning Plan.md"
+                "file": "Homepage.canvas"
               }
             }
           }
@@ -166,47 +165,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35dfe95207ebf37e",
+  "active": "060ba04283b3c30d",
   "lastOpenFiles": [
+    "README.md",
     "Homepage.canvas",
-    "Learning Plan.md",
+    "Learning to Learn.md",
+    "Data Structures/Binary Tree.md",
+    "Data Structures/Trees/Trees.md",
+    "Low Level Design/SOLID Principles.md",
+    "High Level Design/README.md",
+    "Design Patterns/README.md",
     "Algorithms/README.md",
-    "Algorithms/Backtracking.md",
-    "Data Structures/array.md",
+    "Low Level Design/README.md",
+    "Data Structures/README.md",
+    "Low Level Design/OOPs.md",
+    "High Level Design/Online Offline Indicator.md",
+    "High Level Design/HLD Questions.md",
     "Rust/README.md",
-    "Rust",
-    "JavaScript/Execution Context.md",
-    "JavaScript/OOPS-1.md",
-    "JavaScript/Execution Context.canvas",
-    "JavaScript/Hoisting.md",
+    "Rust/Ownership.md",
+    "Rust/Setup.md",
     "JavaScript/README.md",
-    "JavaScript/JavaScript - Code Execution.md",
-    "JavaScript/globalThis.md",
+    "High Level Design/ADR architecture design record.md",
+    "Low Level Design",
+    "High Level Design/System Design Examples.md",
+    "High Level Design/System Design Approach.md",
+    "Design Patterns/Creational/Builder.md",
+    "Design Patterns/Creational/Abstract Factory.md",
+    "Design Patterns/Creational/Factory.md",
+    "Design Patterns/Creational/Singleton.md",
+    "Algorithms/Backtracking.md",
+    "Rust",
+    "JavaScript/Execution Context.canvas",
     "JavaScript/test.js",
     "JavaScript/3-this.js",
-    "JavaScript/JavaScript Data Types.md",
     "JavaScript/2-code_execution.js",
     "JavaScript/0-questions.js",
-    "Data Structures/Trees/Trees.md",
     "JavaScript/1-data_types.js",
     "JavaScript",
     "Data Structures/structures/tree.jpg",
     "Data Structures/structures/Types of Binary Trees.jpg",
     "Data Structures/Trees/Code/package.json",
     "Data Structures/Trees/Code/Trees-1.js",
-    "Data Structures/Trees/Code/Trees-1.cpp",
-    "Data Structures/Depth First Search - DFS.md",
-    "Data Structures/Binary Tree.md",
-    "System Design/Low Level Design.md",
-    "Data Structures/Trees.md",
-    "Data Structures/README.md",
-    "Learning Plan.canvas",
-    "System Design/SOLID Principles.md",
-    "System Design/OOPs.md",
-    "Design Patterns/README.md",
-    "README.md",
-    "System Design/High Level Design.md",
-    "System Design/Online Offline Indicator.md",
-    "System Design/System Design Examples.md"
+    "Learning Plan.canvas"
   ]
 }

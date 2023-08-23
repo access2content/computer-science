@@ -63,18 +63,18 @@ not care about the implementation of the ADT. It is up to you to choose
 the implementation method that suits your requirements best.
 
 Some of the most commonly use ADTs are:
--   [Stack](adt/stack.md)
--   Queue
--   [Trees](Trees/Trees.md)
--   Hashmap
--   Tuple
--   Graph
+- [ ]   [Stack](adt/stack.md)
+- [ ]   Queue
+- [ ]   [Trees](Trees/Trees.md)
+- [ ]   Hashmap
+- [ ]   Tuple
+- [ ]   Graph
 
 # Important Data Structures
-- Arrays
-- Linked Lists
-- [Trees](Trees/Trees.md)
-- Binary Search Tree
-- Binary Tree
-- Heap
-- Graphs
+- [ ] Arrays
+- [ ] Linked Lists
+- [ ] [Trees](Trees/Trees.md)
+- [ ] Binary Search Tree
+- [ ] Binary Tree
+- [ ] Heap
+- [ ] Graphs

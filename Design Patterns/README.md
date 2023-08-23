@@ -83,6 +83,21 @@ Design patterns are divided into 3 main categories:
 - Resource Patterns: Critical Section Pattern, Priority Inheritance Pattern, Priority Ceiling Pattern, Simultaneous Locking Pattern, Ordered Locking Pattern
 - Distribution Patterns: Shared Memory Pattern, Remote Method Call Pattern, Observer Pattern, Data Bus Pattern, Proxy Pattern, Broker Pattern
 - Safety and Reliability Patterns: Monitor-Actuator Pattern, Sanity Check Pattern, Watchdog Pattern, Safety Executive Pattern, Protected Single Channel Pattern, Homogeneous Redundancy Pattern, Triple Modular Redundancy Pattern, Heterogeneous Redundancy Pattern
+
+# To Learn
+- [ ] [Singleton](Creational/Singleton.md)
+- [ ] [Factory](Creational/Factory.md)
+- [ ] [Abstract Factory](Creational/Abstract%20Factory.md)
+- [ ] [Builder](Creational/Builder.md)
+- [ ] Prototype
+- [ ] RAII
+- [ ] Adapter
+- [ ] Decorator
+- [ ] Facade
+- [ ] Prxy
+- [ ] Iterator
+- [ ] Memento
+- [ ] Visitor
 # Further Reading
 - [Wikibooks](https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Architecture/Design_Patterns#Definition_of_a_Design_Pattern)
 - [Status Cake - Useful patterns](https://www.statuscake.com/blog/useful-design-patterns/)

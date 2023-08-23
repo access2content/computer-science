@@ -46,10 +46,3 @@ For example:
 These and other things are going to be there for your use always. So, it is important to learn them. Learning so many things is not a one day task. It will take years to learn all of these. Therefore, having a plan to learn these without getting overwhelmed and feeling comfortable is important.
 
 Of course, you will learn tools and technologies on your job too, and they are important. Along with that, having a learning plan based on how you see yourself in the next few years is going to set you above the rest.
-
-# Things I want to learn
-My programming language of choice is going to be Rust as I see tons of great things about it. However, currently, I have experience with JavaScript and that is how I see my career, so I have to learn that as well.
-
-- git
-- rust
-- JavaScript
