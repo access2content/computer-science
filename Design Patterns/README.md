@@ -1,11 +1,14 @@
 - [Introduction](#introduction)
+- [Why learn?](#why-learn)
 - [Types of design Patterns](#types-of-design-patterns)
-	- [Creational Design Patterns](#creational-design-patterns)
-	- [Structural Design Patterns](#structural-design-patterns)
-	- [Behavioral Patterns](#behavioral-patterns)
+	- [[Creational Design Patterns](Creational/README.md)](#creational-design-patternscreationalreadmemd)
+	- [[Structural Design Patterns](Structural/README.md)](#structural-design-patternsstructuralreadmemd)
+	- [[Behavioral Patterns](Behavioral/README.md)](#behavioral-patternsbehavioralreadmemd)
 	- [Concurrency Patterns](#concurrency-patterns)
 	- [Data Access Patterns](#data-access-patterns)
 	- [Real-Time Patterns](#real-time-patterns)
+- [To Learn](#to-learn)
+- [Further Reading](#further-reading)
 
 # Introduction
 In software engineering, a design pattern is a general reusable solution to a commonly occurring problem in software design. A design pattern is not a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. Object-oriented design patterns typically show relationships and interactions between classes or objects, without specifying the final application classes or objects that are involved.

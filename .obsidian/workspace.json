@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "060ba04283b3c30d",
+            "id": "8c4d28b982e34295",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -16,24 +16,12 @@
               "state": {
                 "file": "Homepage.canvas",
                 "viewState": {
-                  "x": 390,
-                  "y": 370,
-                  "zoom": -1.0101242172737077
+                  "x": 206.5,
+                  "y": 326,
+                  "zoom": -1.6091880377222876
                 }
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "697efa60e93e1a12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
             }
           }
         ]
@@ -165,35 +153,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "060ba04283b3c30d",
+  "active": "8c4d28b982e34295",
   "lastOpenFiles": [
-    "README.md",
+    "Design Patterns/README.md",
     "Homepage.canvas",
+    "Low Level Design/README.md",
+    "Technologies/README.md",
+    "Technologies",
+    "JavaScript/README.md",
+    "JavaScript/React/README.md",
+    "JavaScript/React",
+    "JavaScript/NestJs/README.md",
+    "JavaScript/NestJs",
+    "README.md",
+    "Data Structures/README.md",
+    "Data Structures/Trees/Trees.md",
     "Learning to Learn.md",
     "Data Structures/Binary Tree.md",
-    "Data Structures/Trees/Trees.md",
     "Low Level Design/SOLID Principles.md",
     "High Level Design/README.md",
-    "Design Patterns/README.md",
     "Algorithms/README.md",
-    "Low Level Design/README.md",
-    "Data Structures/README.md",
     "Low Level Design/OOPs.md",
     "High Level Design/Online Offline Indicator.md",
     "High Level Design/HLD Questions.md",
     "Rust/README.md",
     "Rust/Ownership.md",
     "Rust/Setup.md",
-    "JavaScript/README.md",
     "High Level Design/ADR architecture design record.md",
     "Low Level Design",
     "High Level Design/System Design Examples.md",
     "High Level Design/System Design Approach.md",
     "Design Patterns/Creational/Builder.md",
     "Design Patterns/Creational/Abstract Factory.md",
-    "Design Patterns/Creational/Factory.md",
-    "Design Patterns/Creational/Singleton.md",
-    "Algorithms/Backtracking.md",
     "Rust",
     "JavaScript/Execution Context.canvas",
     "JavaScript/test.js",
@@ -201,11 +192,8 @@
     "JavaScript/2-code_execution.js",
     "JavaScript/0-questions.js",
     "JavaScript/1-data_types.js",
-    "JavaScript",
     "Data Structures/structures/tree.jpg",
     "Data Structures/structures/Types of Binary Trees.jpg",
-    "Data Structures/Trees/Code/package.json",
-    "Data Structures/Trees/Code/Trees-1.js",
     "Learning Plan.canvas"
   ]
 }

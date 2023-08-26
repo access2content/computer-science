@@ -14,6 +14,7 @@ It is a dynamically typed high-level language. It is a `synchronous single-threa
 - [ ] Promises
 - [ ] [globalThis](globalThis.md)
 - [ ] Async/Await
+
 # References
 - [CodeSmith](https://www.youtube.com/watch?v=exrc_rLj5iw&pp=ygUNd2lsbCBzZW50YW5jZQ%3D%3D)
 - [JavaScript Internals](https://www.youtube.com/watch?v=viQz4nUUnpw&pp=ygUNd2lsbCBzZW50YW5jZQ%3D%3D)

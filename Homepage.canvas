@@ -1,14 +1,17 @@
 {
 	"nodes":[
-		{"type":"text","text":"# [Data Structures](Data%20Structures/README.md)\n\n```dataview\nTASK\nFROM \"Data Structures/README\"\nWHERE\n!completed\n```","id":"7a7791594e8f01bf","x":0,"y":-20,"width":300,"height":500},
-		{"type":"text","text":"# [Algorithms](Algorithms/README.md)\n```dataview\nTASK\nFROM \"Algorithms/README\"\nWHERE\n!completed\n```","id":"ca221ab4a72a4633","x":360,"y":-20,"width":320,"height":320},
-		{"id":"9fa95349dfdc85c0","x":740,"y":-20,"width":320,"height":387,"type":"text","text":"# [Low Level Design](Low%20Level%20Design/README.md)\n```dataview\nTASK\nFROM \"Low Level Design/README\"\nWHERE\n!completed\n```"},
-		{"type":"text","text":"# [Design Patterns](Design%20Patterns/README.md)\n```dataview\nTASK\nFROM \"Design Patterns/README\"\nWHERE\n!completed\n```","id":"bf43e3d03bfb99d9","x":480,"y":520,"width":320,"height":500},
-		{"type":"text","text":"High-Level Design","id":"6e4445e71f1001db","x":1180,"y":-20,"width":200,"height":50},
+		{"type":"text","text":"# [Low Level Design](Low%20Level%20Design/README.md)\n```dataview\nTASK\nFROM \"Low Level Design/README\"\nWHERE\n!completed\n```","id":"9fa95349dfdc85c0","x":740,"y":-20,"width":320,"height":387},
 		{"type":"text","text":"# [Rust](Rust/README.md)\n```dataview\nTASK\nFROM \"Rust/README\"\nWHERE\n!completed\n```","id":"f85155250833f03a","x":-323,"y":112,"width":296,"height":320},
-		{"type":"text","text":"# [JavaScript](JavaScript/README.md)\n```dataview\nTASK\nFROM \"JavaScript/README\"\nWHERE\n!completed\n```","id":"86cb4bec7f19dffd","x":-600,"y":107,"width":234,"height":425},
+		{"type":"text","text":"# [JavaScript](JavaScript/README.md)\n```dataview\nTASK\nFROM \"JavaScript/README\"\nWHERE\n!completed\n```","id":"86cb4bec7f19dffd","x":-780,"y":107,"width":414,"height":433},
 		{"type":"text","text":"Learning Plan","id":"7a2ff3c390325fe2","x":360,"y":-280,"width":160,"height":60},
-		{"type":"text","text":"Programming Language","id":"3040b65be46e6545","x":-403,"y":-20,"width":160,"height":60}
+		{"type":"text","text":"Programming Language","id":"3040b65be46e6545","x":-403,"y":-20,"width":160,"height":60},
+		{"type":"text","text":"# [Data Structures](Data%20Structures/README.md)\n\n```dataview\nTASK\nFROM \"Data Structures/README\"\nWHERE\n!completed\n```","id":"7a7791594e8f01bf","x":0,"y":-20,"width":360,"height":680},
+		{"type":"text","text":"# [Algorithms](Algorithms/README.md)\n```dataview\nTASK\nFROM \"Algorithms/README\"\nWHERE\n!completed\n```","id":"ca221ab4a72a4633","x":400,"y":-20,"width":320,"height":320},
+		{"type":"text","text":"# [React](JavaScript/React/README.md)\n```dataview\nTASK\nFROM \"JavaScript/React/README\"\nWHERE\n!completed\n```","id":"29237cabb9cb27c1","x":-573,"y":600,"width":414,"height":220},
+		{"type":"text","text":"# [NestJs](JavaScript/NestJs/README.md)\n```dataview\nTASK\nFROM \"JavaScript/NestJs/README\"\nWHERE\n!completed\n```","id":"e66e77cfe4dc0264","x":-987,"y":600,"width":414,"height":260},
+		{"type":"text","text":"# [Design Patterns](Design%20Patterns/README.md)\n```dataview\nTASK\nFROM \"Design Patterns/README\"\nWHERE\n!completed\n```","id":"bf43e3d03bfb99d9","x":580,"y":432,"width":320,"height":500},
+		{"type":"text","text":"# [Technologies](Technologies/README.md)\n```dataview\nTASK\nFROM \"Technologies/README\"\nWHERE\n!completed\n```","id":"026c769394d56fa1","x":1080,"y":-20,"width":320,"height":320},
+		{"type":"text","text":"High-Level Design","id":"6e4445e71f1001db","x":1040,"y":-120,"width":200,"height":50}
 	],
 	"edges":[
 		{"id":"0fc2e9c44706717c","fromNode":"7a2ff3c390325fe2","fromSide":"bottom","toNode":"6e4445e71f1001db","toSide":"top"},
@@ -18,6 +21,8 @@
 		{"id":"8c32c9354c128433","fromNode":"7a2ff3c390325fe2","fromSide":"bottom","toNode":"9fa95349dfdc85c0","toSide":"top"},
 		{"id":"e1f2e955b4eae180","fromNode":"7a2ff3c390325fe2","fromSide":"bottom","toNode":"7a7791594e8f01bf","toSide":"top"},
 		{"id":"0e3288baeb69f1a0","fromNode":"7a2ff3c390325fe2","fromSide":"bottom","toNode":"ca221ab4a72a4633","toSide":"top"},
-		{"id":"6ed2eea60fef3652","fromNode":"9fa95349dfdc85c0","fromSide":"bottom","toNode":"bf43e3d03bfb99d9","toSide":"top"}
+		{"id":"6ed2eea60fef3652","fromNode":"9fa95349dfdc85c0","fromSide":"bottom","toNode":"bf43e3d03bfb99d9","toSide":"top"},
+		{"id":"f51488530f985c2a","fromNode":"86cb4bec7f19dffd","fromSide":"bottom","toNode":"e66e77cfe4dc0264","toSide":"top"},
+		{"id":"0abbaab564d28e44","fromNode":"86cb4bec7f19dffd","fromSide":"bottom","toNode":"29237cabb9cb27c1","toSide":"top"}
 	]
 }
