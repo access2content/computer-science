@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c4d28b982e34295",
+            "id": "febc83667d1a6c4a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -23,8 +23,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0c5a9fb13f04461b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Structures/Trees/Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.canvas",
+                "file": "Data Structures/Trees/Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.canvas",
+                "file": "Data Structures/Trees/Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.canvas"
+                "file": "Data Structures/Trees/Trees.md"
               }
             }
           }
@@ -153,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c4d28b982e34295",
+  "active": "0c5a9fb13f04461b",
   "lastOpenFiles": [
-    "Design Patterns/README.md",
     "Homepage.canvas",
+    "Data Structures/Trees/tree.jpg",
+    "Data Structures/Trees/Trees.md",
+    "Design Patterns/README.md",
     "Low Level Design/README.md",
     "Technologies/README.md",
     "Technologies",
@@ -167,7 +182,6 @@
     "JavaScript/NestJs",
     "README.md",
     "Data Structures/README.md",
-    "Data Structures/Trees/Trees.md",
     "Learning to Learn.md",
     "Data Structures/Binary Tree.md",
     "Low Level Design/SOLID Principles.md",
@@ -192,7 +206,6 @@
     "JavaScript/2-code_execution.js",
     "JavaScript/0-questions.js",
     "JavaScript/1-data_types.js",
-    "Data Structures/structures/tree.jpg",
     "Data Structures/structures/Types of Binary Trees.jpg",
     "Learning Plan.canvas"
   ]

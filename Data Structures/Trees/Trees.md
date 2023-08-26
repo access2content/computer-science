@@ -1,7 +1,6 @@
 A tree is a data structure where a node can have zero or more children. Each node contains a value. These data structures are called “trees” because the data structure resembles a tree. It starts with a root node and branch off with its descendants, and finally, there are leaves.
 
-![](structures/tree.jpg)
-
+![](tree.jpg)
 - It is not a linear Data Structure.
 - It has a parent-child relation
 
