@@ -42,4 +42,11 @@ This will save the specified output file types to the directory specified after 
 More details can be found in the [using the compiler](https://docs.soliditylang.org/en/v0.8.23/using-the-compiler.html) section on solidity's website.
 
 # Deploying a Contract
-Now that a Smart Contract has been written and compiled, it needs to be deployed on a blockchain network. This network can be anywhere. For development and testing purposes, it is wiser to do it locally. So, now, we need to install a Blockchain network locally for deployment and interaction.
+Now that a Smart Contract has been written and compiled, it needs to be deployed on a blockchain network. This network can be anywhere. For development and testing purposes, it is wiser to do it locally. 
+
+So, now, we need to install a Blockchain network locally for deployment and interaction. You can learn how to [Set up local Blockchain](Set%20up%20local%20Blockchain.md)
+
+So, to deploy a smart contract, we need:
+- A Blockchain
+- An interface library to the blockchain
+- Script to deploy the Smart Contract
