@@ -18,6 +18,7 @@ pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
 
 fn main() {
     let input: Vec<i32> = vec![1, 2, 3, 4];
+    println!("Input: {:?}", input);
     let output = product_except_self(input);
     println!("Output: {:?}", output);
 }

@@ -1,0 +1,1 @@
+- Learn algorithms. This will require me to learn about data structures on which that algorithm would run.

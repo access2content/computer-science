@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de355b3f833e595e",
+        "id": "73b8e8968d9cd472",
         "type": "tabs",
         "children": [
           {
-            "id": "febc83667d1a6c4a",
+            "id": "6449f79e99ae6526",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -18,26 +18,38 @@
                 "viewState": {
                   "x": 206.5,
                   "y": 326,
-                  "zoom": -1.6091880377222876
+                  "zoom": -1.1566758330247808
                 }
               },
               "pinned": true
             }
           },
           {
-            "id": "0c5a9fb13f04461b",
+            "id": "aecf2258cbaf6b43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Trees/Trees.md",
+                "file": "Blockchain/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ac3113361efdef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blockchain/Smart Contract Development.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures/Trees/Trees.md",
+                "file": "Blockchain/Smart Contract Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures/Trees/Trees.md",
+                "file": "Blockchain/Smart Contract Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures/Trees/Trees.md"
+                "file": "Blockchain/Smart Contract Development.md"
               }
             }
           }
@@ -157,32 +169,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "0c5a9fb13f04461b",
+  "active": "8ac3113361efdef6",
   "lastOpenFiles": [
+    "Blockchain/README.md",
+    "Blockchain/Smart Contract Development.md",
     "Homepage.canvas",
-    "Data Structures/Trees/tree.jpg",
+    "Blockchain",
+    "Interview Preparation/algorithms/2-selection-sort.2_selection_sort.f6c994a33a88309b-cgu.0.rcgu.o",
+    "Interview Preparation/algorithms/2-selection-sort.3zalgkcfruyfzo77.rcgu.o",
+    "Interview Preparation/algorithms/binary-search.binary_search.9f7c5fb65b8059-cgu.0.rcgu.o",
+    "Interview Preparation/algorithms/binary-search.4e7s1p799v5igsdn.rcgu.o",
+    "Interview Preparation/algorithms/2-selection-sort",
+    "Interview Preparation/algorithms/binary-search",
+    "Interview Preparation/algorithms/2-selection-sort.rs",
+    "Primagen Course/Introduction.md",
+    "Learnings.md",
+    "Primagen Course/Learnings.md",
+    "Interview Preparation/algorithms/4913",
+    "Interview Preparation/algorithms/binary-search.rs",
+    "Interview Preparation/Interview Preparation.md",
+    "Interview Preparation/blind75/README.md",
+    "README.md",
+    "Coding Patterns.md",
+    "Learning to Learn.md",
     "Data Structures/Trees/Trees.md",
+    "Data Structures/Trees/tree.jpg",
     "Design Patterns/README.md",
     "Low Level Design/README.md",
     "Technologies/README.md",
-    "Technologies",
     "JavaScript/README.md",
     "JavaScript/React/README.md",
-    "JavaScript/React",
     "JavaScript/NestJs/README.md",
-    "JavaScript/NestJs",
-    "README.md",
     "Data Structures/README.md",
-    "Learning to Learn.md",
     "Data Structures/Binary Tree.md",
     "Low Level Design/SOLID Principles.md",
     "High Level Design/README.md",
@@ -191,21 +218,7 @@
     "High Level Design/Online Offline Indicator.md",
     "High Level Design/HLD Questions.md",
     "Rust/README.md",
-    "Rust/Ownership.md",
-    "Rust/Setup.md",
-    "High Level Design/ADR architecture design record.md",
-    "Low Level Design",
-    "High Level Design/System Design Examples.md",
-    "High Level Design/System Design Approach.md",
-    "Design Patterns/Creational/Builder.md",
-    "Design Patterns/Creational/Abstract Factory.md",
-    "Rust",
     "JavaScript/Execution Context.canvas",
-    "JavaScript/test.js",
-    "JavaScript/3-this.js",
-    "JavaScript/2-code_execution.js",
-    "JavaScript/0-questions.js",
-    "JavaScript/1-data_types.js",
     "Data Structures/structures/Types of Binary Trees.jpg",
     "Learning Plan.canvas"
   ]
