@@ -1,5 +1,5 @@
 # Steps to learning Blockchain
-The most in-demand thing when getting started with Blockchain is smart contract development. So, it is best to start with [[Smart Contract Development]].
+The most in-demand thing when getting started with Blockchain is smart contract development. So, it is best to start with [Smart Contract Development](Smart%20Contract%20Development.md)
 
 # Why learn Blockchain
 - Bleeding-edge Technology
