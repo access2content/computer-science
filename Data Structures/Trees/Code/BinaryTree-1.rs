@@ -85,6 +85,20 @@ fn height(root: &Option<Box<BinaryTree>>) -> usize {
     }
 }
 
+fn size(root: &Option<Box<BinaryTree>>) -> usize {
+    match root {
+        None => 0,
+        Some(node) => size(&node.left) + size(&node.right) + 1,
+    }
+}
+
+fn max(root: &Option<Box<BinaryTree>>) -> i32 {
+    match root {
+        None => i32::MIN,
+        Some(node) => std::cmp::max(node.value, std::cmp::max(max(&node.left), max(&node.right))),
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -101,4 +115,6 @@ fn main() {
     post_order(&root);
 
     println!("Height: {:?}", height(&root));
+    println!("Size: {:?}", size(&root));
+    println!("Max: {:?}", max(&root));
 }
