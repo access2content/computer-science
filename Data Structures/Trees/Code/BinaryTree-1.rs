@@ -1,3 +1,5 @@
+use std::collections::VecDeque;
+
 pub struct BinaryTree {
     pub value: i32,
     left: Option<Box<BinaryTree>>,
@@ -124,28 +126,73 @@ fn level_order(root: &Option<Box<BinaryTree>>) {
     }
 }
 
+fn level_order_queue(root: &Option<Box<BinaryTree>>) {
+    let mut queue = VecDeque::new();
+    queue.push_back(root);
+    queue.push_back(&None);
+
+    while !queue.is_empty() {
+        let data = queue.pop_front();
+
+        if data.is_none() {
+            break;
+        }
+
+        match data.unwrap() {
+            None => {
+                if queue.is_empty() {
+                    break;
+                }
+                queue.push_back(&None);
+                println!("");
+            }
+
+            Some(node) => {
+                print!("{:?}, ", node.value);
+
+                if !node.left.is_none() {
+                    queue.push_back(&node.left);
+                }
+
+                if !node.right.is_none() {
+                    queue.push_back(&node.right);
+                }
+            }
+        }
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
     let root = create_tree();
 
     //  Print in Order
+    println!("*****");
     println!("In Order: ");
     in_order(&root);
 
+    println!("");
     println!("");
     println!("Pre Order: ");
     pre_order(&root);
 
     println!("");
+    println!("");
     println!("Post Order: ");
     post_order(&root);
 
+    println!("");
     println!("");
     println!("Height: {:?}", height(&root));
     println!("Size: {:?}", size(&root));
     println!("Max: {:?}", max(&root));
 
+    println!("");
     println!("Level Order:");
     level_order(&root);
+
+    println!("");
+    println!("Level Order Queue:");
+    level_order_queue(&root);
 }
