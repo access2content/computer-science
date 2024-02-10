@@ -99,6 +99,31 @@ fn max(root: &Option<Box<BinaryTree>>) -> i32 {
     }
 }
 
+fn print_level(root: &Option<Box<BinaryTree>>, level: usize) {
+    match root {
+        None => return,
+        Some(node) => {
+            if level == 1 {
+                print!("{:?}, ", node.value);
+            } else if level > 1 {
+                print_level(&node.left, level - 1);
+                print_level(&node.right, level - 1);
+            }
+        }
+    }
+}
+
+fn level_order(root: &Option<Box<BinaryTree>>) {
+    if root.is_none() {
+        return;
+    }
+
+    for i in 1..height(&root) + 1 {
+        print_level(&root, i);
+        println!("");
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -108,13 +133,19 @@ fn main() {
     println!("In Order: ");
     in_order(&root);
 
+    println!("");
     println!("Pre Order: ");
     pre_order(&root);
 
+    println!("");
     println!("Post Order: ");
     post_order(&root);
 
+    println!("");
     println!("Height: {:?}", height(&root));
     println!("Size: {:?}", size(&root));
     println!("Max: {:?}", max(&root));
+
+    println!("Level Order:");
+    level_order(&root);
 }
