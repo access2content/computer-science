@@ -1,5 +1,6 @@
 use std::collections::VecDeque;
 
+#[derive(Debug, Clone)]
 pub struct BinaryTree {
     pub value: i32,
     left: Option<Box<BinaryTree>>,
@@ -162,6 +163,49 @@ fn level_order_queue(root: &Option<Box<BinaryTree>>) {
     }
 }
 
+fn left_view(root: &Option<Box<BinaryTree>>, level: usize, output: &mut Vec<i32>) {
+    match root {
+        None => return,
+        Some(node) => {
+            match output[level] {
+                -1 => {
+                    output[level] = node.value;
+                }
+                _ => {}
+            }
+            left_view(&node.left, level + 1, output);
+            left_view(&node.right, level + 1, output);
+        }
+    }
+}
+
+fn print_left(root: &Option<Box<BinaryTree>>) {
+    let size: usize = height(root);
+    let mut output: Vec<i32> = vec![-1; size];
+    left_view(root, 0, &mut output);
+    // Gets the left view and prints it?
+    println!("Output: {:?}", output);
+}
+
+fn right_view(root: &Option<Box<BinaryTree>>, level: usize, output: &mut Vec<i32>) {
+    match root {
+        None => return,
+        Some(node) => {
+            output[level] = node.value;
+            right_view(&node.left, level + 1, output);
+            right_view(&node.right, level + 1, output);
+        }
+    }
+}
+
+fn print_right(root: &Option<Box<BinaryTree>>) {
+    let size: usize = height(root);
+    let mut output: Vec<i32> = vec![-1; size];
+    right_view(root, 0, &mut output);
+    // Gets the left view and prints it?
+    println!("Output: {:?}", output);
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -195,4 +239,12 @@ fn main() {
     println!("");
     println!("Level Order Queue:");
     level_order_queue(&root);
+
+    println!("");
+    println!("Left View:");
+    print_left(&root);
+
+    println!("");
+    println!("Right View:");
+    print_right(&root);
 }
