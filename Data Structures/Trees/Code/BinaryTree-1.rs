@@ -1,3 +1,4 @@
+use std::collections::HashMap;
 use std::collections::VecDeque;
 
 #[derive(Debug, Clone)]
@@ -206,6 +207,104 @@ fn print_right(root: &Option<Box<BinaryTree>>) {
     println!("Output: {:?}", output);
 }
 
+fn top_view_dfs(
+    root: &Option<Box<BinaryTree>>,
+    distance: i32,
+    level: usize,
+    output: &mut HashMap<i32, (usize, i32)>,
+) {
+    // Map<distance, <value, height>>
+    match root {
+        None => return,
+        Some(node) => {
+            top_view_dfs(&node.left, distance - 1, level + 1, output);
+
+            //  Check if something exists for the distance.
+            match output.get(&distance) {
+                // If not, insert it
+                None => {
+                    output.insert(distance, (level, node.value));
+                }
+                Some((node_level, _)) => {
+                    //  Check if the level is smaller. If so, replace it
+                    if level < *node_level {
+                        output.insert(distance, (level, node.value));
+                    }
+                }
+            };
+
+            top_view_dfs(&node.right, distance + 1, level + 1, output);
+        }
+    }
+}
+
+fn print_top_view(root: &Option<Box<BinaryTree>>) {
+    let mut map: HashMap<i32, (usize, i32)> = HashMap::new();
+    top_view_dfs(&root, 0, 0, &mut map);
+
+    let mut keys: Vec<i32> = map.keys().copied().collect();
+    keys.sort();
+
+    for key in keys {
+        match map.get(&key) {
+            None => {}
+            Some(&(_, data)) => {
+                print!("{data}, ");
+            }
+        }
+    }
+}
+
+fn level_view(
+    root: &Option<Box<BinaryTree>>,
+    level: usize,
+    distance: i32,
+    output: &mut HashMap<i32, (usize, i32)>,
+) {
+    match root {
+        None => return,
+        Some(node) => {
+            if level == 1 {
+                match output.get(&distance) {
+                    None => {
+                        output.insert(distance, (level, node.value));
+                    }
+                    Some((level_node, _)) => {
+                        if level < *level_node {
+                            output.insert(distance, (level, node.value));
+                        }
+                    }
+                }
+            } else {
+                level_view(&node.left, level - 1, distance - 1, output);
+                level_view(&node.right, level - 1, distance + 1, output);
+            }
+        }
+    }
+}
+
+fn top_view_bfs(root: &Option<Box<BinaryTree>>) {
+    let height = height(&root);
+    let mut output: HashMap<i32, (usize, i32)> = HashMap::new();
+
+    for i in 1..height + 1 {
+        level_view(&root, i, 0, &mut output);
+    }
+
+    //  Print it
+    let mut keys: Vec<i32> = output.keys().copied().collect();
+    keys.sort();
+
+    for key in keys {
+        match output.get(&key) {
+            None => {}
+            Some(&(_, data)) => {
+                print!("{data}, ");
+            }
+        }
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -247,4 +346,12 @@ fn main() {
     println!("");
     println!("Right View:");
     print_right(&root);
+
+    println!("");
+    println!("Top View DFS:");
+    print_top_view(&root);
+
+    println!("");
+    println!("Top View BFS:");
+    top_view_bfs(&root);
 }
