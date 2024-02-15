@@ -305,6 +305,50 @@ fn top_view_bfs(root: &Option<Box<BinaryTree>>) {
     }
 }
 
+fn bottom_recursion(
+    root: &Option<Box<BinaryTree>>,
+    level: usize,
+    distance: i32,
+    output: &mut HashMap<i32, (usize, i32)>,
+) {
+    match root {
+        None => return,
+        Some(node) => {
+            bottom_recursion(&node.left, level + 1, distance - 1, output);
+
+            match output.get(&distance) {
+                None => {
+                    output.insert(distance, (level, node.value));
+                }
+                Some((data_level, _)) => {
+                    if level >= *data_level {
+                        output.insert(distance, (level, node.value));
+                    }
+                }
+            }
+
+            bottom_recursion(&node.right, level + 1, distance + 1, output);
+        }
+    }
+}
+
+fn bottom_view(root: &Option<Box<BinaryTree>>) {
+    let mut output: HashMap<i32, (usize, i32)> = HashMap::new();
+    bottom_recursion(&root, 0, 0, &mut output);
+
+    let mut keys: Vec<i32> = output.keys().copied().collect();
+    keys.sort();
+
+    for key in keys {
+        match output.get(&key) {
+            None => {}
+            Some((_, data)) => {
+                print!("{data}, ");
+            }
+        }
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -354,4 +398,8 @@ fn main() {
     println!("");
     println!("Top View BFS:");
     top_view_bfs(&root);
+
+    println!("");
+    println!("Bottom View DFS:");
+    bottom_view(&root);
 }
