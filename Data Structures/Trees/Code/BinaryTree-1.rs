@@ -349,6 +349,46 @@ fn bottom_view(root: &Option<Box<BinaryTree>>) {
     }
 }
 
+fn flatten_recursive(
+    root: &mut Option<Box<BinaryTree>>,
+    mut previous: &Option<Box<BinaryTree>>,
+    mut head: Option<Box<BinaryTree>>,
+) {
+    match root {
+        None => return,
+        Some(current) => {
+            flatten_recursive(&mut current.left, previous, head);
+
+            match previous {
+                None => head = root.clone(),
+                Some(prev) => {
+                    // current.left = *previous;
+                    // prev.right = *root;
+                }
+            }
+
+            previous = root;
+
+            flatten_recursive(&mut current.right, previous, head);
+        }
+    }
+}
+
+fn flatten(root: &Option<Box<BinaryTree>>) {
+    let mut head: Option<Box<BinaryTree>>;
+    let mut previous: &Option<Box<BinaryTree>> = &None;
+    let mut root = &mut root.clone();
+
+    flatten_recursive(&mut root, previous, head);
+
+    //  Traverse from head till None
+    let mut pointer: Option<Box<BinaryTree>> = head.clone();
+    while let Some(node) = pointer {
+        print!("{:?}", node.value);
+        pointer = node.right;
+    }
+}
+
 fn main() {
     // Create the Tree
     println!("Enter root: ");
@@ -402,4 +442,8 @@ fn main() {
     println!("");
     println!("Bottom View DFS:");
     bottom_view(&root);
+
+    println!("");
+    println!("Flattened:");
+    flatten(&root);
 }
